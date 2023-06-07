@@ -1,6 +1,5 @@
-// import React from "react";
-// import { ReactDOM } from "react";
-import localServer from "./localServer.cjs";
-// import App from "./App.js";
+import App from "./App";
 
 
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App/>);

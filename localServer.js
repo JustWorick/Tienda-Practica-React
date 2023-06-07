@@ -8,8 +8,8 @@
 
 // export default servidor;
 
-const http = require('http');
-const fs = require('fs');
+import http from "http"
+import fs from "fs"
 
 const hostname = '';
 const port = 3000;
@@ -31,5 +31,6 @@ server.listen(port, hostname, ()=> {
     console.log(`Server Running at ${hostname}:${port}`)
 })
 
+export default server;
 
 
