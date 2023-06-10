@@ -1,5 +1,9 @@
-import App from "./App";
+/*
+import App from "App.js";
+import React from "react";
+import  ReactDOM  from "react-dom/client";
 
+ const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App/>); */
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App/>);
+console.log('Esta leyendo el index.js');

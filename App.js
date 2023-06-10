@@ -7,3 +7,4 @@ export default function App() {
         </>
     )
 }
+console.log('Esta leyendo el app.js');
